@@ -4,10 +4,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
+    "build": "webpack --mode development",
+    "prod": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
+  "browserslist": [
+  "ie 11"
+],
   "author": "",
   "license": "ISC",
   "description": "",

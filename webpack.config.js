@@ -8,7 +8,7 @@ export default {
     path: path.resolve(process.cwd(), "dist"),
     clean: true,
   },
-  mode: "development", // Remember to change this to production for assignment
+  mode: "production",
   module: {
     rules: [
       {
